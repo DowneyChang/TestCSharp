@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Datepicker";
+}
+
+<div class="row">
+    <h3>測試 Datepicker</h3>
+    <input type="text" id="datepicker_01" />
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker_01').datepicker();
+        });
+    </script>
+}
